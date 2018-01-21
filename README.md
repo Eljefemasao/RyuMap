@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Overview</h1>
-This is an amaizing web application for University of the Ryukyus students which be able to finds usefull information; like your classroom's location and syllabus, and...so on. I belive its including a lot of infomation which is necessary for a freshperson, espaceally.
+Application which allows users to find useful information; like users classroom's location and syllabus, and...so on. I hope it will help freshperson, espaceally.
 
 <h2>Function</h2>
 <ul>
