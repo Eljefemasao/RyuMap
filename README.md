@@ -13,7 +13,7 @@ PLUS++.. Maybe.. It will hvae the most useful Application for English-Learner; i
     <li>html/Main.php- have home page.</li>
     <li>html/SignUp.php- have registering accout page.</li>
     <li>html/pasaword.php- create hashed password.</li>
-  <ul>
+  </ul>
   <li>html/assets- have BootStrap_files.</li>
   <li>img- have University of the Ryukyus building picture. It will be used by map function.</li>
 </ul>
@@ -26,7 +26,7 @@ PLUS++.. Maybe.. It will hvae the most useful Application for English-Learner; i
 <h2>Major dependencies</h2>
 I demonstrated this Application at MAMP:4.4.1 and adopted PDO_MySQL with phpMyAdmin for database.  
 <h2>SignIn Page</h2>
-![result](https://github.com/Eljefemasao/RyuMap/blob/master/demo/signinpage.png)
+![result](https://github.com/Eljefemasao/RyuMap/blob/master/demo/signinpage.png)<br>
 ##Demo<br>
 ![result](https://github.com/Eljefemasao/RyuMap/blob/master/demo/demo.gif)
 
