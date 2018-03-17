@@ -2,7 +2,7 @@
 <body>
 <h1>Overview</h1>
 Out final purpose is supplying nice campus life for students. This Application allows user to find useful information. I believe it will help freshperson, espaceally.
-PLUS++.. Maybe.. It will hvae the most useful Application for English-Learner; improve users writing skill in English.
+PLUS++.. Maybe.. It will have the most useful Application for English-Learner; improve user's writing skill in English.
 <h2>Files/directories</h2>
 <ul>
   <li>demo- have gif_file which display demo.</li>
@@ -26,9 +26,8 @@ PLUS++.. Maybe.. It will hvae the most useful Application for English-Learner; i
 <h2>Major dependencies</h2>
 I demonstrated this Application at MAMP:4.4.1 and adopted PDO_MySQL with phpMyAdmin for database.  
 <h2>SignIn Page</h2>
-![result](https://github.com/Eljefemasao/RyuMap/blob/master/demo/signinpage.png)<br>
+<img alt="er" src="https://github.com/Eljefemasao/RyuMap/blob/master/demo/signinpage.png"><br>
 ##Demo<br>
-![result](https://github.com/Eljefemasao/RyuMap/blob/master/demo/demo.gif)
-
+<img alt="er" src="https://github.com/Eljefemasao/RyuMap/blob/master/demo/demo.gif">
 </body>
 </html>
