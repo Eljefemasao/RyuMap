@@ -55,12 +55,12 @@ if (!isset($_SESSION["NAME"])){
           <a class="navbar-brand" href='#' <input onclick="location.href='https://www.google.co.jp/maps/place/%E5%9B%BD%E7%AB%8B%E7%90%89%E7%90%83%E5%A4%A7%E5%AD%A6/@26.2492546,127.7644446,17.1z/data=!4m5!3m4!1s0x0:0x7fe14ca3ed543577!8m2!3d26.247582!4d127.7651435'">
             <img alt="Brand" src="../img/home_icons/earth.png" style="height: 20px;">
           </a>
-          <a class="navbar-brand" href="button"  >
+          <a class="navbar-brand" href="button">
 				<img alt="Brand" src="../img/home_icons/button.png" style="height: 20px;" "left: 1000px;">
-			</a>
+			   </a>
             <a class="navbar-brand" href="javascript:location.reload();"> RyuMap</a>
-      </div>
-        <div id="navbar" class="navbar-collapse collapse">
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" >
             <div class="form-group">
               <input type="text" placeholder="いきたい教室を検索" class="form-control">
@@ -68,7 +68,7 @@ if (!isset($_SESSION["NAME"])){
                        <a type="submit" class="btn btn-success" href='#' <input onclick="location.href='room.html' ">Search</a>
             </div>
 
-      </form>
+          </form>
 
       </div>
     </nav>
