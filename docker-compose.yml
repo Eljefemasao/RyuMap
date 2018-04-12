@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+    db:
+        image: mysql:latest
+        command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+        restart: always
+        environment:
+            - MYSQL_ROOT_PASSWORD=django
+            - MYSQL_DATABASE=django
+            - MYSQL_USER=django
+            - MYSQL_PASSWORD=django
+        restart: always
+        volumes:
+            - ./project/dbdata:/var/lib/mysql
+    web:
+        build:
+            context: docker/
+            #dockerfile: Dockerfile
+
+        command: python3 manage.py runserver 0.0.0.0:8000
+
+        volumes:
+            - ./project:/code
+        ports:
+            - "8000:8000"
+        depends_on:
+            - db
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        environment:
+            - PMA_ARBITRARY=1
+        restart: always
+        ports:
+            - 8082:80
+        volumes:
+            - /sessions
