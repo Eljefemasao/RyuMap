@@ -1,7 +1,7 @@
 ### https://raw.github.com/github/gitignore/737da93c3215ebe081e7f0593ef0ffe36cb51ce3/Global/macOS.gitignore
 
 # General
-.DS_Store
+**.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -29,4 +29,20 @@ Temporary Items
 
 */.env
 */.dbdata
+
+# django ignore
+project/**/.egg-info
+project/**/.pot
+project/**/.py[co]
+project/**/.tox/
+project/**/__pycache__
+project/**/MANIFEST
+project/**/dist/
+project/**/docs/_build/
+project/**/docs/locale/
+project/**/node_modules/
+project/**/tests/coverage_html/
+project/**/tests/.coverage
+project/**/build/
+project/**/tests/report/
 
