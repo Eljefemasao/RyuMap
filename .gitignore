@@ -28,6 +28,7 @@ Temporary Items
 .apdisk
 
 */.env
+**/dbdata
 **/.dbdata
 
 # django ignore
