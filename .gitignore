@@ -27,5 +27,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-**/.env
-**/.dbdata
+**.env
+**.dbdata
