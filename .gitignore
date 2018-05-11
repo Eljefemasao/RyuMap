@@ -27,22 +27,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-*/.env
+**/.env
 **/.dbdata
-
-# django ignore
-project/**/.egg-info
-project/**/.pot
-project/**/.py[co]
-project/**/.tox/
-project/**/__pycache__
-project/**/MANIFEST
-project/**/dist/
-project/**/docs/_build/
-project/**/docs/locale/
-project/**/node_modules/
-project/**/tests/coverage_html/
-project/**/tests/.coverage
-project/**/build/
-project/**/tests/report/
-
